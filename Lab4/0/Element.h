@@ -1,10 +1,10 @@
 ﻿#pragma once
-///Kreirati klasu Element koja od zaštićenih atributa sadrži šifru(int), šifru materijala(int) i
-///količinu(float), a od javnih funkcija :
-/// funkciju koja vraća šifru materijala,
-/// funkciju koja vraća količinu materijala,
-/// čistu virtuelnu funkciju za prikaz podataka o elementu,
-/// operatorsku funkciju za upoređivanje dva elementa(po šifri).
+//Kreirati klasu Element koja od zaštićenih atributa sadrži šifru(int), šifru materijala(int) i
+//količinu(float), a od javnih funkcija :
+// funkciju koja vraća šifru materijala,
+// funkciju koja vraća količinu materijala,
+// čistu virtuelnu funkciju za prikaz podataka o elementu,
+// operatorsku funkciju za upoređivanje dva elementa(po šifri).
 class Element
 {
 protected:

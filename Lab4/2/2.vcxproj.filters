@@ -15,24 +15,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Element.h">
+    <ClInclude Include="Operacija.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Paleta.h">
+    <ClInclude Include="Sabiranje.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Skladiste.h">
+    <ClInclude Include="Oduzimanje.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kalkulator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Element.cpp">
+    <ClCompile Include="Operacija.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Paleta.cpp">
+    <ClCompile Include="Sabiranje.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Skladiste.cpp">
+    <ClCompile Include="Oduzimanje.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kalkulator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
