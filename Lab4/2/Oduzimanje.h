@@ -1,5 +1,10 @@
-#pragma once
+﻿#pragma once
 #include "Operacija.h"
+
+//Kreirati klasu Oduzimanje koja je javno izvedena iz klase Operacija i od javnih metoda
+//sadrži :
+// konstruktor koji postavlja sve atribute.
+
 class Oduzimanje :
 	public Operacija
 {
