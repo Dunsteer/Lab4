@@ -1,4 +1,6 @@
 #include "ProcessQueue.h"
+#include <iostream>
+using namespace std;
 
 ProcessQueue::ProcessQueue()
 {
@@ -60,7 +62,7 @@ void ProcessQueue::Dodaj(Process* p, int x)
 			if (niz2 != nullptr)
 				if (!(ispunjen2 == maxbr2))
 				{
-					niz1[ispunjen2++] = p;
+					niz2[ispunjen2++] = p;
 				}
 		}
 	}
@@ -173,6 +175,7 @@ void ProcessQueue::Prikazi()
 			niz2[i]->Prikazi();
 		}
 	}
+	cout << endl;
 }
 
 ProcessQueue& operator+(ProcessQueue& levi, ProcessQueue& desni)
