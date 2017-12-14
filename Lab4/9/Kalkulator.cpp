@@ -27,6 +27,8 @@ Kalkulator::~Kalkulator()
 	}
 	if (naziv != nullptr)
 		delete[] naziv;
+	zauzeto = 0;
+	akumulator = 0;
 }
 
 Kalkulator::Kalkulator(int VelicinaAkumulator, char * Naziv)

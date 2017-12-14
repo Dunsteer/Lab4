@@ -7,7 +7,7 @@ using namespace std;
 Kalkulator::Kalkulator()
 {
 	zauzeto = 0;
-	akumulator = 0;
+	akumulator = 1;
 	naziv = nullptr;
 	niz = nullptr;
 	velicinaAkumulatora = 0;
@@ -27,10 +27,14 @@ Kalkulator::~Kalkulator()
 	}
 	if (naziv != nullptr)
 		delete[] naziv;
+	zauzeto = 0;
+	akumulator = 1;
 }
 
 Kalkulator::Kalkulator(int VelicinaAkumulator, char * Naziv)
 {
+	zauzeto = 0;
+	akumulator = 0;
 	velicinaAkumulatora = VelicinaAkumulator;
 	naziv = new char[strlen(Naziv) + 1];
 	strcpy(naziv, Naziv);
