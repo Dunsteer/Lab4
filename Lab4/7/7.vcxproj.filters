@@ -15,33 +15,33 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\2\Operacija.h">
+    <ClInclude Include="Developer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\2\Kalkulator.h">
+    <ClInclude Include="Menager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Deljenje.h">
+    <ClInclude Include="Preduzece.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mnozenje.h">
+    <ClInclude Include="Radnik.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\2\Operacija.cpp">
+    <ClCompile Include="Developer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Deljenje.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mnozenje.cpp">
+    <ClCompile Include="Menager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="Preduzece.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Kalkulator.cpp">
+    <ClCompile Include="Radnik.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
